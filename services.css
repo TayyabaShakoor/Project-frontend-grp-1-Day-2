@@ -1,0 +1,133 @@
+.services-container {
+    padding: 20px;
+    background-color: #F5F5DC;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-of-service {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.header-of-service h1 {
+margin-left: 100px;
+margin-top: 50px;
+font-size: 45px;
+color:#9e2f03;
+font-weight: bold;
+transition:0.5s all ease;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -13px;
+    width: 25px;
+    height: 25px;
+    border-left: 4px solid #9e2f03;
+    border-top: 4px solid #9e2f03;
+}
+
+.paragraph-of-service p {
+    text-align: center;
+    font-size: 25px;
+    color: #522104;
+
+}
+  
+  .boxes-of-services-page {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width:300px;
+    height: 250px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px #9e2f03;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ .box:hover {
+    color:rgb(143, 48, 4);
+    background: #fafadc;
+    box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+ }
+  
+  .box img {
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .box h2 {
+    font-weight: bold;
+  }
+  
+  .box p {
+    padding: 3px;
+    font-size: 17px;
+  }
+
+  .get-in-touch {
+    background: url('images/get in toouch bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border:1px solid #ddd;
+  height: 250px;
+  text-align: center;
+  }
+  
+.get-in-touch h2 {
+    font-size: 40px;
+    color:#fff;
+    font-weight: bold;
+    transition:0.5s all ease;
+}
+
+.get-in-touch p {
+    font-size: 29px;
+    color:#fff;
+}
+
+.get-in-touch button {
+        padding: 10px 20px;
+        background:#F5F5DC;
+        border:1px solid rgb(143, 48, 4);
+        border-radius: 15px;
+        transition: 0.5s all ease ;
+        cursor: pointer;
+        box-shadow: 0 1px 6px rgb(165, 165, 165);
+    }
+
+    a {
+        text-decoration: none;
+        color:rgb(83, 29, 5);
+        font-size: 18px;
+    }
+    
+    .get-in-touch button:hover {
+        background: rgb(143, 48, 4);
+        box-shadow: 0 1px 6px rgba(12, 10, 10, 0.28);
+    }
+
+    .get-in-touch a:hover {
+        color:#F5F5DC;
+    }
+
+  
